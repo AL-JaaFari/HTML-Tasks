@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TASK_8</title>
+    </head>
+
+    <!--  -->
+
+    <body>
+        <form action="a.html" method="POST" class="info">
+            <div class="container">
+                <label for="userid">User_ID: </label><br>
+                <input type="text" id="userid" placeholder="The maxlength 5 numbers" name="ID" maxlength = "5">
+                <hr>
+
+                <label for="username">UserName: </label><br>
+                <input type="text" id="username" placeholder="Enter UserName" name="username" required>
+                <hr>
+
+                <label for="pws">PassWord: </label><br>
+                <input type="password" id="pws" placeholder="Enter PassWord" name="password">
+                <hr>
+
+                <label for="phone">Mobile: </label><br>
+                <input type="tel" id="phone" placeholder="+964 770 111 1111" name="phone">
+                <hr>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required placeholder="Email address">
+                <hr>
+
+                <label for="sub">Subject: </label><br>
+                <input type="text" id="sub" value="HTML" name="subj" readonly>
+                <hr>
+                <!-- Hiden Id -->
+                <input type="hidden" id="hideId" name="hideId" value="123">
+
+                <!-- checkBox -->
+                <label for="">languages</label><br>
+                <input type="checkbox" id="subject1" name="subject1" value="HTML">
+                <label for="subject1"> HTML </label><br>
+                <input type="checkbox" id="subject2" name="subject2" value="CSS">
+                <label for="subject2"> CSS </label><br>
+                <input type="checkbox" id="subject3" name="subject3" value="JAVASCRIPT">
+                <label for="subject3"> JAVASCRIPT </label><br>
+                <hr>
+
+                <!-- RaidoButtons -->
+                <label for="">Choose OS system</label><br>
+                <input type="radio" id="Windows" name="OS" value="Windows">
+                <label for="Windows">Windows 10</label><br>
+                <input type="radio" id="Linux" name="OS" value="Linux">
+                <label for="Linux">Linux</label><br>
+                <input type="radio" id="macOS" name="OS" value="macOS">
+                <label for="macOS">macOS</label><br>
+                <hr>
+
+                <input type="submit" id="submit" value="Send">
+            </div>
+
+            
+        </form>
+
+        <!-- 
+            الفرق بين (checkbox) | (Radio)
+            [1] 
+            checkbox
+            يسمح باختيار اكثر من اختيار من القائمة
+            Radio
+            يسمح باختيار واحد من القائمة المتاحة
+
+            [2]
+            checkbox
+            يمكن انشاءها من تاغ <input> نوع الخاصية checkbox
+
+            Radio
+            يمكن انشائها من تاغ <input> نوع الخاصية Radio
+
+            [3]
+            checkbox
+            تستخدم عندما احتاج من المستخدم اختيار اكثر من اختيار
+
+            Radio
+            تستخدم عندما احتاج من المستخدم او تحديده بخيار واحد فقط
+
+            [4]
+            checkbox states
+            -checked
+            -unchecked
+            -indeterminate
+
+            Radio states
+            -True
+            -False
+        -->
+
+    </body>
+</html>
